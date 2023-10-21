@@ -1,0 +1,141 @@
+body {
+    font-family: 'Baloo Bhai 2', cursive;
+    color: aliceblue;
+    margin: 0px;
+    padding: 0px;
+    background: url("gym.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+}
+
+.left {
+    /* border: 2px solid red; */
+    display: inline-block;
+    position: absolute;
+    left: 52px;
+    top: 20px;
+
+}
+
+.left img {
+    position: absolute;
+    bottom: -94px;
+    right: 33px;
+    width: 91px;
+    filter: invert(-25%);
+}
+
+.left div {
+    line-height: 21px;
+    font-size: 23px;
+    text-align: center;
+}
+
+.mid {
+    /* display: block; */
+    width: 34%;
+    margin: 30px auto;
+    /* border: 2px solid green; */
+}
+
+.right {
+    position: absolute;
+    right: 34px;
+    top: 33px;
+    display: inline-block;
+    /* border: 2px solid yellow; */
+}
+
+/* Style the navigation bar */
+.navbar {
+list-style: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-color: transparent; /* Set the background color to transparent */
+}
+
+.navbar li {
+float: left;
+}
+
+.navbar li a {
+display: block;
+color: #fff; /* Text color for links */
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+}
+
+/* Style for the active link */
+.navbar li a.active {
+background-color: #333; /* Background color for the active link */
+}
+
+/* Hover effect for links */
+.navbar li a:hover {
+background-color: #555; /* Background color on hover */
+transition: background-color 0.3s;
+}
+
+
+.btn {
+    font-family: 'Baloo Bhai 2', cursive;
+    margin: 0px 9px;
+    background-color: black;
+    color: white;
+    padding: 2px 8px;
+    border: 2px solid gray;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.btn:hover {
+    background-color: rgb(94, 103, 103);
+}
+
+.containor {
+    border: 2px solid burlywood;
+    margin: 173px 36px;
+    padding: 75px;
+    width: 33%;
+    border-radius: 33px;
+}
+
+.containor h1 {
+    text-align: center;
+}
+
+.form-group input {
+    font-family: 'Baloo Bhai 2', cursive;
+    text-align: center;
+    display: block;
+    width: 84%;
+    padding: 1px;
+    font-size: 24px;
+    border: 2px solid black;
+    margin: 11px auto;
+    border-radius: 8px;
+}
+
+.containor button {
+    display: block;
+    width: 33%;
+    margin: auto;
+}
+footer {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+
